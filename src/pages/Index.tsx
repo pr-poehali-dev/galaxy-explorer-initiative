@@ -4,61 +4,61 @@ export default function Index() {
       <div className="grain-overlay" />
 
       <header className="header">
-        <div className="logo">VINYL*DINER</div>
+        <div className="logo">ВКУСНАЯ*КДА</div>
         <nav>
           <a href="#">Меню</a>
           <a href="#">О нас</a>
-          <a href="#">Афиша</a>
-          <a href="#">Адреса</a>
+          <a href="#">Акции</a>
+          <a href="#">Адрес</a>
         </nav>
-        <button className="btn-cta">Забронировать</button>
+        <button className="btn-cta">Заказать</button>
       </header>
 
       <main>
         <section className="hero">
           <div className="hero-content">
             <h1 className="hero-title">
-              БЕЗ ПОНТОВ,
+              ГОЛОДНЫЙ?
               <br />
-              ТОЛЬКО <span>ВКУС</span>
+              МЫ <span>ОТКРЫТЫ</span>
             </h1>
             <p className="text-base md:text-lg lg:text-xl mb-8 md:mb-10 leading-relaxed text-[#555]">
-              Эстетика 70-х в современной подаче. Локальные продукты, огненные блюда и атмосфера для настоящих ценителей.
+              Вкусная еда в любое время суток — хоть в полдень, хоть в 3 ночи. Без компромиссов со вкусом, круглосуточно и без выходных.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 sm:gap-5">
               <button className="btn-cta" style={{ background: "var(--primary)", color: "white" }}>
-                Заказать
+                Смотреть меню
               </button>
               <button className="btn-cta" style={{ background: "white" }}>
-                Смотреть меню
+                Как доехать
               </button>
             </div>
           </div>
           <div className="hero-img">
             <div className="sticker">
-              СВЕЖАК
+              РАБОТАЕМ
               <br />
-              КАЖДЫЙ ДЕНЬ
+              24/7
             </div>
             <div className="floating-tag hidden md:block" style={{ top: "20%", left: "10%" }}>
-              #ЭСТЕТИКА
+              #ВКУСНО
             </div>
             <div className="floating-tag hidden md:block" style={{ bottom: "30%", right: "20%" }}>
-              ОГОНЬ
+              БЕЗ ВЫХОДНЫХ
             </div>
           </div>
         </section>
 
         <div className="marquee">
           <div className="marquee-content">
-            &nbsp; * БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ *
-            БУРГЕРЫ КОТОРЫЕ РВУТ * КРАФТОВЫЕ КОКТЕЙЛИ * ТОЛЬКО РЕТРО ВАЙБ * ОТКРЫТЫ ДО 2:00 * ЛУЧШИЕ В ГОРОДЕ
+            &nbsp; * РАБОТАЕМ КРУГЛОСУТОЧНО * ВСЕГДА СВЕЖЕЕ * БЕЗ ВЫХОДНЫХ * ВКУСНАЯ КДА * ЛУЧШИЕ В ГОРОДЕ *
+            РАБОТАЕМ КРУГЛОСУТОЧНО * ВСЕГДА СВЕЖЕЕ * БЕЗ ВЫХОДНЫХ * ВКУСНАЯ КДА * ЛУЧШИЕ В ГОРОДЕ
           </div>
         </div>
 
         <section className="section-padding">
           <div className="section-header">
-            <h2 className="section-title">ВЫБОР ШЕФА</h2>
+            <h2 className="section-title">ХИТ МЕНЮ</h2>
             <a
               href="#"
               className="text-sm md:text-base"
@@ -73,7 +73,7 @@ export default function Index() {
             <div className="menu-card">
               <span className="menu-tag">Хит продаж</span>
               <img
-                src="https://images.unsplash.com/photo-1568901346375-23c9450c58cd?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
+                src="https://cdn.poehali.dev/projects/13b4219b-0b2f-4de1-914b-4dae272d393a/files/f2c73ab4-f8bc-455d-95c8-c3714ccf64cd.jpg"
                 alt="Классический бургер"
               />
               <div className="menu-card-body">
@@ -86,10 +86,10 @@ export default function Index() {
                   }}
                 >
                   <h3>Классика</h3>
-                  <span className="price">1 400 ₽</span>
+                  <span className="price">290 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Тройной смэш из мраморной говядины, фирменный соус, маринованные огурцы на бриоши.
+                  Сочная котлета, свежие овощи, фирменный соус и хрустящая булочка — проверенный вкус.
                 </p>
               </div>
             </div>
@@ -100,8 +100,8 @@ export default function Index() {
                 Острое
               </span>
               <img
-                src="https://images.unsplash.com/photo-1513104890138-7c749659a591?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Неоновая пицца"
+                src="https://cdn.poehali.dev/projects/13b4219b-0b2f-4de1-914b-4dae272d393a/files/17d52132-330a-4f9e-837f-50e2219723d3.jpg"
+                alt="Хот-дог с картошкой"
               />
               <div className="menu-card-body">
                 <div
@@ -112,10 +112,10 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Электро Пепперони</h3>
-                  <span className="price">1 800 ₽</span>
+                  <h3>Огненный хот-дог</h3>
+                  <span className="price">220 ₽</span>
                 </div>
-                <p style={{ fontSize: "14px", color: "#666" }}>Двойная пепперони, острый мёд, тесто на закваске.</p>
+                <p style={{ fontSize: "14px", color: "#666" }}>Сочная сосиска, острый соус, хрустящий лук и картошка фри в комплекте.</p>
               </div>
             </div>
 
@@ -126,7 +126,7 @@ export default function Index() {
               </span>
               <img
                 src="https://images.unsplash.com/photo-1514362545857-3bc16c4c7d1b?ixlib=rb-4.0.3&auto=format&fit=crop&w=600&q=80"
-                alt="Диско Сауэр"
+                alt="Ночной комбо"
               />
               <div className="menu-card-body">
                 <div
@@ -137,11 +137,11 @@ export default function Index() {
                     marginBottom: "10px",
                   }}
                 >
-                  <h3>Диско Сауэр</h3>
-                  <span className="price">1 200 ₽</span>
+                  <h3>Ночной комбо</h3>
+                  <span className="price">450 ₽</span>
                 </div>
                 <p style={{ fontSize: "14px", color: "#666" }}>
-                  Джин, цветок бузины, голубой чай и съедобная золотая пыльца.
+                  Бургер + картошка фри + напиток. Идеально после полуночи — сытно и быстро.
                 </p>
               </div>
             </div>
@@ -150,45 +150,44 @@ export default function Index() {
 
         <section className="retro-vibe">
           <div>
-            <h2 className="vibe-title">ВАЙБ-ЧЕК ПРОЙДЕН.</h2>
+            <h2 className="vibe-title">ПОЗДНО? ДА НЕТ, САМОЕ ВРЕМЯ.</h2>
             <p className="vibe-text">
-              Мы не просто кормим. Мы создаём моменты. От плейлиста хип-хопа 90-х до диванов в стиле 70-х — каждый уголок
-              продуман для твоего идеального кадра. Бронь не нужна, просто приходи с настроением.
+              Пока другие закрываются — мы только разогреваемся. «Вкусная КДА» работает 24/7, 365 дней в году. Настоящая еда без ожидания, в любое время суток. Заходи один или с компанией — всегда рады.
             </p>
             <button className="btn-cta" style={{ background: "var(--dark)", color: "white", borderColor: "white" }}>
               Наша история
             </button>
           </div>
-          <div className="vibe-img"></div>
+          <div className="vibe-img" style={{ backgroundImage: `url(https://cdn.poehali.dev/projects/13b4219b-0b2f-4de1-914b-4dae272d393a/files/fc0a387d-189e-4e5d-9a60-cea516dc5495.jpg)`, backgroundSize: "cover", backgroundPosition: "center" }}></div>
         </section>
 
         <section className="section-padding">
           <h2 className="section-title" style={{ marginBottom: "40px", textAlign: "center" }}>
-            @VINYL.DINER
+            @VKUSNAYA.KDA
           </h2>
           <div className="social-grid">
             <div className="social-item">
               <img
                 src="https://images.unsplash.com/photo-1467003909585-2f8a72700288?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 1"
+                alt="Фото 1"
               />
             </div>
             <div className="social-item">
               <img
                 src="https://images.unsplash.com/photo-1534353473418-4cfa6c56fd38?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 2"
+                alt="Фото 2"
               />
             </div>
             <div className="social-item">
               <img
                 src="https://images.unsplash.com/photo-1497034825429-c343d7c6a68f?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 3"
+                alt="Фото 3"
               />
             </div>
             <div className="social-item">
               <img
                 src="https://images.unsplash.com/photo-1559339352-11d035aa65de?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80"
-                alt="Инста 4"
+                alt="Фото 4"
               />
             </div>
           </div>
@@ -197,9 +196,9 @@ export default function Index() {
 
       <footer>
         <div>
-          <div className="footer-logo">VINYL*DINER</div>
+          <div className="footer-logo">ВКУСНАЯ*КДА</div>
           <p style={{ color: "#666", lineHeight: 1.6 }}>
-            Твоё место для еды высокого качества и лоу-фай атмосферы. С 2024, но ощущается как 1974.
+            Еда, которая не спит. Открыты 24 часа в сутки, 7 дней в неделю, без праздников и выходных.
           </p>
         </div>
         <div className="footer-links">
@@ -217,12 +216,12 @@ export default function Index() {
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Политика
+                Акции
               </a>
             </li>
             <li>
               <a href="#" style={{ color: "inherit", textDecoration: "none" }}>
-                Условия
+                Контакты
               </a>
             </li>
           </ul>
@@ -230,16 +229,15 @@ export default function Index() {
         <div className="footer-links">
           <h4>Часы работы</h4>
           <ul>
-            <li>Вт-Чт: 12:00 - 23:00</li>
-            <li>Пт-Сб: 12:00 - 02:00</li>
-            <li>Вс: 11:00 - 21:00</li>
-            <li>Пн: Выходной</li>
+            <li>Пн-Вс: Круглосуточно</li>
+            <li>Без выходных</li>
+            <li>365 дней в году</li>
           </ul>
         </div>
         <div className="footer-bottom">
-          <span>2025 VINYL DINER</span>
-          <span>ВКУС КЛАССИКИ</span>
-          <span>IG / TW / TK</span>
+          <span>2025 ВКУСНАЯ КДА</span>
+          <span>ВКУС БЕЗ ЧАСОВ</span>
+          <span>IG / VK / TG</span>
         </div>
       </footer>
     </>
